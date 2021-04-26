@@ -19,7 +19,7 @@ if random_side == 1:
 else:
     print("Tails.")    
 """
-
+""""
 states_of_america = ["Delware", "Pensylvania", "New Jersey", "Georgia", 
 "Connecticut", "Massachusetts", "Maryland", "South Carolina", "New Hampshire",
 "Virginia", "New York", "North Carolina", "Rhode Island", "Vermont", "Kentucky",
@@ -29,10 +29,12 @@ states_of_america = ["Delware", "Pensylvania", "New Jersey", "Georgia",
 "Nevada", "Nebraska", "Colorado", "North Dakota", "South Dakota", "Montana",
 "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma", "New Mexico", "Arizona",
 "Alaska", "Hawaii"] 
+"""
 
-states_of_america[1] = "Pencilvania"
+#print(states_of_america[50])
+  
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+dirty_dozen = [fruits, vegetables]
 
-states_of_america.append("Akifland")
-states_of_america.extend(["Rahmanland", "Nafisland", "Tanzilland"]) 
-
-print(states_of_america[1:])  
+print(dirty_dozen[1][1])
