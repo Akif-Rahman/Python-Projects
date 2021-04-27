@@ -1,2 +1,2 @@
 import datetime
-print(datetime.datetime.now())
+print("The date and the time is", datetime.datetime.now()) 
