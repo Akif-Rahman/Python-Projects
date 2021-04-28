@@ -1,4 +1,5 @@
 def mean(mylist):
+    print("Function Started!")
     the_mean = sum(mylist) / len(mylist)
     return the_mean
 
