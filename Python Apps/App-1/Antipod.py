@@ -1,5 +1,6 @@
 from folium import Map
 
+# Get latitude and longitude values.
 latitude = float("40.09")
 longitude = float("3.47")
 
